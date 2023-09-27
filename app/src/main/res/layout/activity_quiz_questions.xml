@@ -1,0 +1,65 @@
+<!-- activity_quiz_questions.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question text will go here"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/option1Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="16dp"
+        android:insetLeft="15dp"
+        android:insetRight="15dp"
+        android:text="Option 1"
+       />
+
+    <Button
+        android:id="@+id/option2Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="16dp"
+        android:insetLeft="15dp"
+        android:insetRight="15dp"
+        android:text="Option 1"
+       />
+
+    <Button
+        android:id="@+id/option3Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="16dp"
+        android:insetLeft="15dp"
+        android:insetRight="15dp"
+        android:text="Option 1"
+        />
+
+    <Button
+        android:id="@+id/option4Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="16dp"
+        android:insetLeft="15dp"
+        android:insetRight="15dp"
+        android:text="Option 1" />
+
+
+
+</LinearLayout>
